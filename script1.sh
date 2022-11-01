@@ -2,7 +2,7 @@ echo "Starting script ----------------------------------------------------------
 #This will be executed from inside the machine so the path are those of the guest machine.
 yum check update -y
 yum update -y
-#create file and populate with redirection
+# create file and populate with redirection
 touch file.txt
 echo 'This is lab1' >> file.txt
 cat file.txt
